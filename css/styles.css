@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
     background: url("../images/white-bowls.jpg") no-repeat center fixed;
     background-size: cover;
@@ -47,3 +48,54 @@ a {
   font-size: 2rem;
   font-weight: 500;
 }
+=======
+html {
+    background: url("../images/white-bowls.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+body {
+  font-family: 'Cabin', sans-serif !important;
+  background-color: transparent;
+  color: #666666;
+}
+
+.heading {
+  font-weight: bold;
+  margin-bottom: 5rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+a {
+  color: #666666;
+  font-size: 1.7rem;
+}
+
+.panel-item {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.row.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+
+.display-area {
+  padding: 70px;
+}
+
+.display-box {
+  background-color: white;
+  padding: 70px;
+  color: #645188;
+  font-size: 2rem;
+  font-weight: 500;
+}
+>>>>>>> 55b2ea515a9a9b8ff9aff5d0411383ead46642fb
