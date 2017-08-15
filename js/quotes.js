@@ -11,7 +11,7 @@ $(document).ready(function() {
     var quoteAuthor = "";
     var responseObj;
 
-    $.getJSON("https://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en").done (function(data) {
+    $.getJSON("https://api.forismatic.com/api/1.0/?method=postQuote&format=json&lang=en").done (function(data) {
       var jsonObj = JSON.parse(data);
       quoteText = jsonObj.quoteText;
       quoteAuthor = jsonObj.quoteAuthor;
