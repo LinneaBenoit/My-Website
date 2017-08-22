@@ -37,13 +37,38 @@ a {
 }
 
 .display-area {
-  padding: 70px;
+  padding: 0px 70px 0px 70px;
+  margin: 0px 70px 0px 70px;
 }
 
 .display-box {
   background-color: white;
   padding: 70px;
+  margin: 70px;
   color: #645188;
   font-size: 2rem;
   font-weight: 500;
+}
+
+#quote{
+  padding: 35px 35px 15px 35px;
+}
+
+#author {
+  font-size: 1.5rem;
+}
+
+.button {
+  margin: 20px;
+  padding: 5px 10px 5px 10px;
+
+}
+
+.twitter-share-button {
+  color: #645188;
+  padding: 0px 10px 0px 10px;
+}
+
+.twitter-bird {
+  max-width: 20px;
 }
