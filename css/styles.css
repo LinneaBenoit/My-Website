@@ -72,3 +72,18 @@ a {
 .twitter-bird {
   max-width: 20px;
 }
+
+#location-conds {
+  text-transform: capitalize;
+}
+
+#location-image {
+  width: 75px;
+  height: 75px;
+}
+
+#scale {
+  font-size: 2rem;
+  color: #0000EE;
+  text-decoration: none;
+}
