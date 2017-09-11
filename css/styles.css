@@ -87,3 +87,20 @@ a {
   color: #0000EE;
   text-decoration: none;
 }
+
+#dice, #magnifying-glass {
+  max-width: 70px;
+  margin-top: 15px;
+}
+
+.short-display-box {
+  background-color: white;
+  margin: 20px;
+  color: #645188;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.small-text {
+  font-size: 1.5rem;
+}

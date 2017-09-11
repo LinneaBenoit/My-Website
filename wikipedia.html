@@ -19,18 +19,29 @@
   </header>
   <main>
 		<div class="display-area text-center">
-			<div class="display-box" id="display-box">
-				<h3>Weather for your location:</h3>
-				<div id="location-name"></div>
-				<div><span id="location-temp"></span> &#176;<a id="scale" href="#"></a></span></div>
-				<div id="location-conds"></div>
-				<div><img  id="location-image" src="#" alt="#" /></div>
+			<div class="display-box">
+				<h3>Search Wikipedia:</h3>
+        <div>
+          <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><img alt="dice" id="dice" src="images/dice.png"/></a>
+          <div class="small-text">
+            (click icon for a random entry)
+          </div>
+        </div>
+        <div class="short-display-box">
+          or
+        </div>
+        <div class="short-display-box">
+          <a href="#"><img alt="magnifying glass" id="magnifying-glass" src="images/magnifying_glass.png"/></a>
+        </div>
+        <div class="small-text" id="search-text">
+          (click icon to enter search)
+        </div>
 			</div>
 		</div>
   </main>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="lib/bootstrap.min.js"></script>
-	<script src="js/weather.js"></script>
+	<script src="js/wikipedia.js"></script>
   </body>
 
   </html>

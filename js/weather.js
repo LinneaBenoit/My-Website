@@ -10,20 +10,17 @@ $(document).ready(function() {
   }
 
   function showPosition(position) {
-//      console.log("https://fcc-weather-api.glitch.me/api/current?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude);
-
 
       $.getJSON("https://fcc-weather-api.glitch.me/api/current?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude)
         .done(function(data) {
+          $("#display-box").attr('style', 'background:url(images/' + data.weather[0].description.replace(/\s+/g, '-') + '.png) no-repeat center fixed; background-size:cover;');
           $("#location-name").text(data.name);
-//          console.log();
           $("#location-temp").html(Math.round(convertCelcius(data.main.temp)));
           $("#scale").html("F");
           $("#location-conds").html(data.weather[0].description);
           $("#location-image").attr('src', data.weather[0].icon);
           $("#location-image").attr('alt', data.weather[0].description);
         });
-
   }
 
   function convertCelcius(cTemp) {
@@ -47,7 +44,7 @@ $(document).ready(function() {
 
   $("#scale").on('click', function() {
     changeScale($("#location-temp").html(), $("#scale").html());
-});
+  });
 
   getLocation();
 
