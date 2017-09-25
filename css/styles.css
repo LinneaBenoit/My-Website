@@ -21,6 +21,7 @@ h1 {
 a {
   color: #666666;
   font-size: 1.7rem;
+/*  text-decoration: none; */
 }
 
 .panel-item {
@@ -103,4 +104,38 @@ a {
 
 .small-text {
   font-size: 1.5rem;
+}
+
+.clear-button {
+  background-color: white;
+  border-style: none;
+  text-decoration: none;
+}
+
+.clear-button a {
+  text-decoration: none;
+}
+
+.clear-button a:hover {
+    text-decoration: none;
+}
+
+.search-box, .search-box:focus {
+  border-style: none;
+  border-color: white;
+  box-shadow: none;
+}
+
+.wikipedia {
+  border: 1px solid #666666;
+  border-radius: 4px;
+}
+
+.wiki-item {
+  border-style: solid;
+  border-color: blue;
+  border-width: 1px;
+  padding: 1rem 1rem 0rem 1rem;
+  margin-top: 20px;
+  text-align: left;
 }

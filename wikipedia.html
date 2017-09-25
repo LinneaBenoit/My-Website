@@ -20,22 +20,25 @@
   <main>
 		<div class="display-area text-center">
 			<div class="display-box">
-				<h3>Search Wikipedia:</h3>
-        <div>
-          <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><img alt="dice" id="dice" src="images/dice.png"/></a>
-          <div class="small-text">
-            (click icon for a random entry)
-          </div>
-        </div>
-        <div class="short-display-box">
-          or
-        </div>
-        <div class="short-display-box">
-          <a href="#"><img alt="magnifying glass" id="magnifying-glass" src="images/magnifying_glass.png"/></a>
-        </div>
-        <div class="small-text" id="search-text">
-          (click icon to enter search)
-        </div>
+				<h3>Wikipedia Viewer:</h3>
+        <div class="input-group wikipedia">
+					<input type="text" class="form-control search-box" id="input" placeholder="Search...">
+						<div class="input-group-btn">
+						<a href="#input" type="button" class="clear-button" id="search-btn">
+							<span class="input-group-addon glyphicon glyphicon-search clear-button"></span>
+						</a>
+						<button type="button" class="clear-button">
+							<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+								<span class="input-group-addon glyphicon glyphicon-random clear-button"></span>
+							</a>
+						</button>
+					</div>
+					</input>
+				</div>
+				<div id="message">
+				</div>
+				<div id="wiki-results">
+				</div>
 			</div>
 		</div>
   </main>
